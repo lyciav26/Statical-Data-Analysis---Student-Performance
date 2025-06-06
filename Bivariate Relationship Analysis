@@ -1,0 +1,5 @@
+#Regression line plotting for math and reading 
+
+plot(math, reading, main="Math Score vs Reading Score" 
+, xlab="Math Score", ylab="Reading Score" 
+abline(lm(reading.score ~ math.score, data=students), col="red")
