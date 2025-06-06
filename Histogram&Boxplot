@@ -1,0 +1,11 @@
+#plot the graphs 
+
+#histograms of the variables 
+hist(math, main = "Histogram of Math Scores",  
+xlab = "Math Score", col = "lightblue", border = "black") 
+hist(reading, main = "Histogram of Reading Scores",  
+xlab = "Reading Score", col = "lightgreen", border = "black") 
+
+#boxplots of the variables 
+boxplot(math, main="Boxplot of Math Scores", ylab="Frequency", col="lightblue") 
+boxplot(reading, main="Boxplot of  Reading Scores", ylab="Frequency", col="lightgreen") 
