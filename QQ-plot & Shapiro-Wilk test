@@ -1,0 +1,14 @@
+# QQ-plot 
+qqnorm(math, main = "Q-Q Plot for Math Scores") 
+qqline(math, col = "red") 
+ 
+# Shapiro-Wilk test 
+shapiro.test(math)
+
+# QQ-plot 
+qqnorm(reading, main = "Q-Q Plot for Reading Scores") 
+qqline(reading, col = "blue") 
+ 
+# Shapiro-Wilk test 
+shapiro.test(reading)
+
