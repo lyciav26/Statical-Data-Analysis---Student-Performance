@@ -4,6 +4,7 @@ This project is a comprehensive statistical data analysis of student performance
 
 📁 Dataset
 The dataset is sourced from Kaggle: Students Performance in Exams
+Dataset Source: [Students Performance in Exams – Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 It contains information on students' scores in math, reading, and writing, along with categorical variables such as gender, parental education, and lunch type.
 
 The two quantitative variables I chose to focus on: math score and reading score, along with the categorical variable test preparation. These variables are highly relevant to both scores that are achieved by students. 
