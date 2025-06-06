@@ -30,12 +30,9 @@ This project was conducted using R programming for:
 Descriptive statistics (mean, median, mode, SD, variance, range, IQR, CV)
 Visualizations (histograms, boxplots, scatter plots, Q-Q plots)
 Distributional analysis (Empirical Rule, Shapiro-Wilk test)
-Correlation analysis (Pearson's r and r^2)
 
 📌 Key Findings
 Reading scores are more consistent (CV = 21.11%) than math scores (CV = 22.94%).
 Math scores approximately follow a normal distribution (99.6% within 3 SD).
 A strong positive correlation (r = 0.818) exists between math and reading scores.
 Visualizations enhanced understanding of skewness, outliers, and distribution symmetry.
-While correlation is strong, no causal relationship can be inferred.
-
