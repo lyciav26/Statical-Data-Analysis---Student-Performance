@@ -1,0 +1,70 @@
+# Load the data 
+students <- read.csv("StudentsPerformance.csv") 
+math <- students$math.score 
+reading <- students$reading.score 
+
+#finding mean of variables 
+math_mean <- mean(math) 
+math_mean 
+reading_mean <- mean(reading) 
+reading_mean 
+
+#finding median of variables 
+math_median <- median(math) 
+math_median 
+reading_median <- median(reading) 
+reading_median 
+
+#finding mode of variables 
+math_freq <-table(students$math.score) 
+math_mode <- as.numeric(names(math_freq[math_freq==max(math_freq)])) 
+math_mode 
+reading_freq <-table(students$reading.score) 
+reading_mode <- as.numeric(names(reading_freq[reading_freq==max(reading_freq)])) 
+reading_mode 
+
+#finding the standard deviation of the variables 
+math_sd <- sd(math) 
+math_sd 
+reading_sd <- sd(reading) 
+reading_sd 
+
+#finding the variance of the variables 
+math_var <- var(math) 
+math_var 
+reading_var <- var(reading) 
+reading_var 
+
+#finding the range of the variables
+range_math=max(math)-min(math) 
+range_math 
+ 
+range_reading=max(reading)-min(reading) 
+range_reading 
+ 
+#finding the quartiles of the variables 
+math_quartiles <- quantile(math, probs = c(0.25, 0.5, 0.75)) 
+math_quartiles 
+ 
+reading_quartiles <- quantile(reading, probs = c(0.25, 0.5, 0.75)) 
+reading_quartiles 
+ 
+#finding the IQR of the variables 
+iqr_math= IQR(math) 
+iqr_math 
+ 
+iqr_reading= IQR(reading) 
+iqr_reading 
+ 
+#finding the CV of the variables(consistency of data) 
+math_cv <- (math_sd / math_mean) 
+math_cv 
+math_cv_percentage <- math_cv*100 
+math_cv_percentage <- round(math_cv_percentage, 2) 
+math_cv_percentage 
+ 
+reading_cv <- (reading_sd / reading_mean) 
+reading_cv 
+reading_cv_percentage <- reading_cv*100 
+reading_cv_percentage <- round(reading_cv_percentage, 2) 
+reading_cv_percentage 
