@@ -6,6 +6,15 @@ This project is a comprehensive statistical data analysis of student performance
 The dataset is sourced from Kaggle: Students Performance in Exams
 It contains information on students' scores in math, reading, and writing, along with categorical variables such as gender, parental education, and lunch type.
 
+The two quantitative variables I chose to focus on: math score and reading score, along with the categorical variable test preparation. These variables are highly relevant to both scores that are achieved by students. 
+
+The main questions I aim to explore are: 
+1. Do the descriptive statistics and graphical representations indicate that the 
+variable follows a normal distribution, making it appropriate for further 
+statistical analysis? 
+2. Do students' scores in reading and math show a stable correlation across the 
+dataset?
+
 🎯 Objectives
 The main objectives of the analysis are:
 
